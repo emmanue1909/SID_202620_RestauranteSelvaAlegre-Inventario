@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="74BD02BD-5630-001F-312C-907E78F4C2F5">
+<Attribute name="." id="74BD02BD-5630-001F-312C-907E78F4C2F5">
 <createdBy>cordo</createdBy>
 <createdTime>2026-09-06 04:24:58 UTC</createdTime>
 <generatorID>BD714E45-20B1-EADC-D826-9D3D4053E64A</generatorID>
@@ -37,5 +37,29 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id" id="F21C6123-19D6-4264-3B05-6F54BE8C1CBA">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-06 18:15:53 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53F5F9DF-6DAD-253E-345D-96CABC9DA3AD" name="ORDERDETAIL PK">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-06 18:15:39 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F21C6123-19D6-4264-3B05-6F54BE8C1CBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
