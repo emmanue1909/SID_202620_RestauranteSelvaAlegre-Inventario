@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3B6F61F-CCA0-6DA4-2634-8A5C10E1FEA5" name="SUPPLIER">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-05 23:05:04 UTC</createdTime>
+<ownerDesignName>modeloMERproyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="261DBF7F-56E8-6ECB-8379-AAC0E41E5335">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-05 23:05:54 UTC</createdTime>
+<ownerDesignName>modeloMERproyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="464228B4-A009-B460-4684-032F24A7CFF5">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-05 23:06:15 UTC</createdTime>
+<ownerDesignName>modeloMERproyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="204C1808-A66F-202E-8C60-CC3C386EB2B0">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-05 23:06:25 UTC</createdTime>
+<ownerDesignName>modeloMERproyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC4070A2-7FFD-2D7A-EA5B-9A58B43F9AC6" name="SUPPLIER PK">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-05 23:06:01 UTC</createdTime>
+<ownerDesignName>modeloMERproyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>204C1808-A66F-202E-8C60-CC3C386EB2B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
