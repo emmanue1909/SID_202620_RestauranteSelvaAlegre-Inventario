@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cuantity" id="B854FE3B-49F1-7819-DE71-0A0D9F1CE033">
+<Attribute name="quantity" id="B854FE3B-49F1-7819-DE71-0A0D9F1CE033">
 <createdBy>emma1</createdBy>
 <createdTime>2026-09-05 23:16:53 UTC</createdTime>
 <ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
