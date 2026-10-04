@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C225CDB2-1923-DD81-D55E-D7747D09F824" containerWithKeyObject="16E343CE-D32D-6D6D-9FD3-5158D70636C0" localFKIndex="C194C074-CC44-6BE0-98DA-7E11A4EF970D" name="ORDERS_STATUS_FK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 16:13:21 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<referredTableLongName>STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17C725E6-74F5-CAC4-EEC8-62A1CB0BB0B3</referredTableID>
+<keyObject>9F804043-EBF7-71D8-1D54-F006718086B6</keyObject>
+<referredKeyID>9F804043-EBF7-71D8-1D54-F006718086B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="754B76B7-AE78-4B6D-6417-5E871F00B15F" name="SUPPLIES">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:51:52 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8D8C4965-0F91-F7E7-C015-CD7821DDA1D1">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B5FBE517-4F0A-15E7-DD6C-3D30701CA914">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_measurement" id="ABAD4394-22FC-65D6-3F54-2D91F5981DC3">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimum_stock" id="08727B30-DB70-42ED-FAD4-CA1C3ED7B091">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_stock" id="99804875-B6B6-609D-BB38-1B314BACE763">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETAILS_id_detail" id="5FA54852-9978-7655-D6EC-4C29662FB4C1">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:57:19 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A436ED57-8557-284B-C477-D98A4CCD10FF" referredColumn="1B8E8824-8261-E8C4-8C15-4B820C213484"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="207AA95E-4E0F-E962-ED7D-9A73C234B9CE" name="SUPPLIES_PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:54:57 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8C4965-0F91-F7E7-C015-CD7821DDA1D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C937B642-618C-FE32-7B17-FD56FC85F71A" name="SUPPLIES_DETAILS_FK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:57:19 UTC</createdTime>
+<ownerDesignName>modeloMER3.0_modeloMR1.0proyectoRestaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA54852-9978-7655-D6EC-4C29662FB4C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
