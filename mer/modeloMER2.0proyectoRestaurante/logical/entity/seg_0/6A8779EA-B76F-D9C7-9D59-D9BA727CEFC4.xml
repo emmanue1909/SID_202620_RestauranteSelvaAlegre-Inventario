@@ -59,6 +59,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="price" id="FCB959DB-1DA0-48E2-A2D2-09B7C9DAFF15">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-06 18:24:00 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="809CC92D-109A-90DC-0A83-0DC1BB07835A" name="PURCHASEDETAIL PK">

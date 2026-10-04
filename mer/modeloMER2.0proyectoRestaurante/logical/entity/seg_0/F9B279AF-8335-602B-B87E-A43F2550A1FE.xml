@@ -47,6 +47,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="date" id="0424BAFE-F315-7BF3-6A0F-C9778DB7CC4D">
+<createdBy>emma1</createdBy>
+<createdTime>2026-09-06 18:23:36 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="05C28425-3CD5-168F-AC5B-510EA93918DF" name="MOVEMENT PK">
@@ -58,8 +68,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FAF58667-88C2-6E5F-7C58-9D814C3AFD8D</attributeRef>
 <attributeRef>7910EFD8-D405-7859-0EC4-8FB583947F81</attributeRef>
+<attributeRef>FAF58667-88C2-6E5F-7C58-9D814C3AFD8D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
