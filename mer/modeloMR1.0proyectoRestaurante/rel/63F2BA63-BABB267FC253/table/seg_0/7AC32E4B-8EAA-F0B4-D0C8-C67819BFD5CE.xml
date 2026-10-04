@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC32E4B-8EAA-F0B4-D0C8-C67819BFD5CE" name="PLATES">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:05:45 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="35C0E703-7B38-C4D2-81CB-320B1D3371CD">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:07:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5BE01FDC-EFD3-CBC4-B68F-67C91C6EFEE4">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:07:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="E1D19F11-1D1D-1C06-A3C7-00149E45D1A3">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:07:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>200000</dataTypeScale>
+<ownDataTypeParameters>,2,200000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FD11985-CAA4-B5C7-2BBD-73EC6E3C9C12" name="PLATES_PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:07:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C0E703-7B38-C4D2-81CB-320B1D3371CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

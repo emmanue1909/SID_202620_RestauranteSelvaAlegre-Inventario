@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="25F452A9-A40E-C37C-D910-523BB9B000A0">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 13:29:48 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>CE4B1D5A-6FA9-CFD5-4F31-66B0279C4C8A</sourceEntity>
+<targetEntity>2F469E00-07E2-DE80-9A79-F2C4532BF36D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
