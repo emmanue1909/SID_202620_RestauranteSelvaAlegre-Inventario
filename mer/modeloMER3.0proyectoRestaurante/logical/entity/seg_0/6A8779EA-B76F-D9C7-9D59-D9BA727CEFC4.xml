@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A8779EA-B76F-D9C7-9D59-D9BA727CEFC4" name="PURCHASEDETAIL">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:20:10 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="59A8C211-6A32-DA5D-7C45-E7ADFFDBAAF4">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:20:26 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="61B28783-879E-29E9-A647-AFE367E07677">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:20:33 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F89D6C7F-7281-31D3-629C-61A6D3ED5913">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:21:08 UTC</createdTime>
+<generatorID>8A28DE93-D545-27A2-CEEB-C337F935875D</generatorID>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<referedAttribute>88DCDC8F-6792-B6BC-0234-AFADA3782F2D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="53305255-B28B-AAE7-3073-CAEDAA4660CE">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:21:40 UTC</createdTime>
+<generatorID>3E902765-815D-4DD1-7C8C-67181B78C1DB</generatorID>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<referedAttribute>C45CAB84-7500-6106-5A38-FA9BE4BB46A8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="809CC92D-109A-90DC-0A83-0DC1BB07835A" name="PURCHASEDETAIL PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:20:29 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59A8C211-6A32-DA5D-7C45-E7ADFFDBAAF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

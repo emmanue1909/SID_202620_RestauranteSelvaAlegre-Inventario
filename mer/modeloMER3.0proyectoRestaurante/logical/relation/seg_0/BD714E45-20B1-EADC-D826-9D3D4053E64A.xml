@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="BD714E45-20B1-EADC-D826-9D3D4053E64A">
+<createdBy>cordo</createdBy>
+<createdTime>2026-09-06 04:24:58 UTC</createdTime>
+<ownerDesignName>modeloMER2.0proyectoRestaurante</ownerDesignName>
+<engineerTo>
+<item key="63F2BA63-FC26-A8DC-15D5-BABB267FC253" value="true"/>
+</engineerTo>
+<sourcePk>80EC15BB-112B-F4EA-CEF6-3421527843F7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>belongs to</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42E09B7D-5D74-B923-A35B-76984F6281E2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DD4E24F3-07ED-6501-2C1C-25CC520B575C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
