@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="663BCBB8-DC72-1220-DBEA-8431A92E9E7B" name="PURCHASESUPPLIERS">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:46:30 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E658E009-2C82-5FA3-62FE-8F4A689B8CCD">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:48:15 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="A523C2C8-26E6-F145-8E10-DFF8ABA56DEA">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:48:15 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_price" id="1FC125B6-CE1F-9A88-F643-264F0AAC4CCF">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:48:15 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10000000</dataTypeScale>
+<ownDataTypeParameters>,2,10000000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIERS_nit" id="EAB40BA2-E95B-303B-5B69-795A90792F38">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:51:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4758A423-698C-0DBC-FFC3-FD94CDCDDBDD" referredColumn="020CDCDE-2152-3F9F-F570-8E41562F56B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E30147A-77B9-5FE3-EA46-972E1AE1C930" name="PURCHASESUPLIERS_PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 14:48:15 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E658E009-2C82-5FA3-62FE-8F4A689B8CCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D923A9F7-96B8-B0B6-2FFC-06A76C32FF47" name="PURCHASESUPPLIERS_SUPPLIERS_FK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:51:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAB40BA2-E95B-303B-5B69-795A90792F38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
