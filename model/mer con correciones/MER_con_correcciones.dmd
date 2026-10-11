@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_con_correcciones" id="1372BA24-2BE8-FA67-2BD5-89F6F7772585" version="3.5">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:56:39 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1372BA24-2BE8-FA67-2BD5-89F6F7772585</designId>
+</OSDM_Design>

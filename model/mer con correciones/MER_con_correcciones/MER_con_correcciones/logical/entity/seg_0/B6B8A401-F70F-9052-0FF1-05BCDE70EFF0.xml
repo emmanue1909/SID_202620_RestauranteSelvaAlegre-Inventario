@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6B8A401-F70F-9052-0FF1-05BCDE70EFF0" name="MOVEMENT">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:03:46 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F95DD99F-5D86-7D93-5737-7A997C3C7494">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:03:57 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="B0F18FED-9652-FC03-B1AC-0BFD215CE307">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:04:03 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="1F2C368C-A517-2D13-1733-1F9EB5CF6397">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:04:09 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="76D8CF38-1CBA-3DAA-1855-594499AEA65D">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:10:51 UTC</createdTime>
+<generatorID>36A58F4D-4FA2-85EF-AF28-EFCF13E9972D</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>81D98336-2130-138F-E194-7B78D2B39CA6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="33EC3043-45D5-0355-E931-1E0A864F72BA">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:11:18 UTC</createdTime>
+<generatorID>132580F3-3087-73C7-3E79-C49E1E104840</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>E0F61F22-EF52-2B37-B2F2-B28510EAB814</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="F442CDCB-9D5F-9DEC-096A-4A8099EE8CE8">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:13:53 UTC</createdTime>
+<generatorID>E9474C28-AFDE-3A58-6884-E60B796571CF</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>0FC7EE6F-A797-2318-36B3-4A14C5469DFB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="C91667E7-D1B2-7DEA-BF26-7C318D3F26B1">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:15:03 UTC</createdTime>
+<generatorID>CECC2CEA-2007-1951-DF37-C28CEC2510BB</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>928E845A-F4D9-17B6-A4E5-DDB1FD934F13</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B916FBE-3DCE-FCCE-4248-4804A408104F" name="MOVEMENT PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:04:02 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F95DD99F-5D86-7D93-5737-7A997C3C7494</attributeRef>
+<attributeRef>76D8CF38-1CBA-3DAA-1855-594499AEA65D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
