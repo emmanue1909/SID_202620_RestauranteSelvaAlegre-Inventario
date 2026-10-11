@@ -34,13 +34,8 @@ id_plate_details $\rightarrow$ id_ingredient
 
 id_purchase_supplier_detail $\rightarrow$ id_purchase_supplier
 
-id_purchase_supplier $\rightarrow$ id_movement
+id_movement $\rightarrow$ id_purchase_supplier
 
-id_order $\rightarrow$ id_movement
+id_movement $\rightarrow$ id_order
 
 id_movement $\rightarrow$ id_employee
-
-PENDiENTES:
-
-REVISAR HASTA 3FN (2FN Y 1FN CHECK)
-REVISAR LOSLESSJOIN Y CONSEVACION DE DEPENDENCIAS
