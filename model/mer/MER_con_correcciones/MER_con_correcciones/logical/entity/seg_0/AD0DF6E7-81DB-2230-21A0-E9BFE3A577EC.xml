@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD0DF6E7-81DB-2230-21A0-E9BFE3A577EC" name="PURCHASESUPPLIER">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:35 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0FC7EE6F-A797-2318-36B3-4A14C5469DFB">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:48 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="69619BBF-504F-11CE-91AA-FCFAD5B3251B">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:54 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_price" id="BB708422-6457-3C86-CF45-B95E8850A418">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:58:01 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="9594413C-E76E-2B8D-0E24-46CF682AEE48">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:09:42 UTC</createdTime>
+<generatorID>B4A9656A-B2EA-238A-C59F-1CD68816A99A</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>BF727CA8-FB96-0FE0-2109-367873654E8F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8C9D4CDD-FE5A-4354-D8A0-DF8A7910886D">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:14:08 UTC</createdTime>
+<generatorID>E9474C28-AFDE-3A58-6884-E60B796571CF</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>F95DD99F-5D86-7D93-5737-7A997C3C7494</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="82897B04-6523-7275-31EF-9FA9F53A32C4">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:14:08 UTC</createdTime>
+<generatorID>E9474C28-AFDE-3A58-6884-E60B796571CF</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>76D8CF38-1CBA-3DAA-1855-594499AEA65D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48F4F54A-C806-1118-9E30-B69D29E68984" name="PURCHASESUPPLIER PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:52 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FC7EE6F-A797-2318-36B3-4A14C5469DFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
