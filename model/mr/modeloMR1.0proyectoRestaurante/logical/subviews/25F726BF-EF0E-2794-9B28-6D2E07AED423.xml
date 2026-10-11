@@ -254,7 +254,7 @@
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="131" y="502" width="65" height="30"/>
+<labelBounds x="131" y="494" width="65" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
