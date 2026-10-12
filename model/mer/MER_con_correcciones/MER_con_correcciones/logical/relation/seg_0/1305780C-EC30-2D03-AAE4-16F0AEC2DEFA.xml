@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="1305780C-EC30-2D03-AAE4-16F0AEC2DEFA">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:12:30 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<sourcePk>464FCE20-773A-DEE6-28CB-8A62B4375A1B</sourcePk>
+<targetPk>6C2D24E3-6B54-7B81-78B7-69AAA8720B5C</targetPk>
+<identifying>false</identifying>
+<nameOnSource>belongs to</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E293C351-3ACF-626D-0FBB-B5C3428E463A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F0C3C40A-4E27-0D91-124A-1D7BD03EC6BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

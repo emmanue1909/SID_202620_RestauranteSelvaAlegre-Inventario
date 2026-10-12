@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16E343CE-D32D-6D6D-9FD3-5158D70636C0" name="ORDERS">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:00:10 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C1098D11-0881-16A1-32A1-5CCF7A198D8A">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:02:51 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="D347A713-7E8A-2386-6229-11D8592FBEA9">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:02:51 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hour" id="9CB8EEC1-5CEA-2BCB-8F10-B3FB01878CD5">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:02:51 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_price" id="2336BA9B-328F-BB5D-111D-380600BE944A">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:02:51 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5000000</dataTypeScale>
+<ownDataTypeParameters>,2,5000000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_name" id="2621934B-ABA5-4FDF-1401-64305B5BCB62">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 16:13:21 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C225CDB2-1923-DD81-D55E-D7747D09F824" referredColumn="E5A10B7C-BFA4-DD57-26C7-1C87018BD94C"/>
+</associations>
+</Column>
+<Column name="EMPLOYEES_id" id="2E98F459-FE6A-8C84-6E2A-AE7FEC61AD97">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 16:20:47 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="225ACFAC-22EA-3180-A00C-2EB8FDAF9401" referredColumn="45B1C418-045B-83C1-01A9-D3A583A3E6ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F6224DD-58B3-1CDE-3250-3AF29DAAA87A" name="ORDERS_PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:02:51 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1098D11-0881-16A1-32A1-5CCF7A198D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C194C074-CC44-6BE0-98DA-7E11A4EF970D" name="ORDERS_STATUS_FK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 16:13:21 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2621934B-ABA5-4FDF-1401-64305B5BCB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76EA44E9-1799-AEE5-A00C-DFAE715483F2" name="ORDERS_EMPLOYEES_FK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 16:20:47 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E98F459-FE6A-8C84-6E2A-AE7FEC61AD97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1E2BE0DC-BE46-C864-2B1E-01BD0D33BB81" mainViewID="0811BE8C-63ED-A609-92B0-D2000AC00E2B">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:56:39 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
