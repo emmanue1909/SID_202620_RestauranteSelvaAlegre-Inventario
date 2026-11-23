@@ -4,11 +4,12 @@
 <createdTime>2026-10-10 23:41:40 UTC</createdTime>
 <ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
 <referredTableLongName>ORDERS</referredTableLongName>
+<arc>98BFDA96-CE8E-3485-FB2A-DDB0C71B7E0B</arc>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>16E343CE-D32D-6D6D-9FD3-5158D70636C0</referredTableID>
 <keyObject>8F6224DD-58B3-1CDE-3250-3AF29DAAA87A</keyObject>
 <referredKeyID>8F6224DD-58B3-1CDE-3250-3AF29DAAA87A</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

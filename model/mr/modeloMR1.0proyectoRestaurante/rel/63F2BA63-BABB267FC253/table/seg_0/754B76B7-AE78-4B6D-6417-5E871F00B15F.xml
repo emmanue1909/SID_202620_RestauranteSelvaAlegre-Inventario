@@ -37,9 +37,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>100</dataTypeScale>
-<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="minimum_stock" id="08727B30-DB70-42ED-FAD4-CA1C3ED7B091">
@@ -49,9 +49,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>100</dataTypeScale>
-<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="current_stock" id="99804875-B6B6-609D-BB38-1B314BACE763">
@@ -61,9 +61,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeScale>100</dataTypeScale>
-<ownDataTypeParameters>,2,100</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DETAILS_id_detail" id="5FA54852-9978-7655-D6EC-4C29662FB4C1">

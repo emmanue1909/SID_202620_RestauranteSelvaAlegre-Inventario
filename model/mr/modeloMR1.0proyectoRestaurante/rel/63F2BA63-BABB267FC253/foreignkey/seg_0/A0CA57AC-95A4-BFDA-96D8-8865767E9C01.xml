@@ -4,11 +4,12 @@
 <createdTime>2026-10-10 23:40:12 UTC</createdTime>
 <ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
 <referredTableLongName>PURCHASESUPPLIERS</referredTableLongName>
+<arc>98BFDA96-CE8E-3485-FB2A-DDB0C71B7E0B</arc>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>663BCBB8-DC72-1220-DBEA-8431A92E9E7B</referredTableID>
 <keyObject>6E30147A-77B9-5FE3-EA46-972E1AE1C930</keyObject>
 <referredKeyID>6E30147A-77B9-5FE3-EA46-972E1AE1C930</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="98BFDA96-CE8E-3485-FB2A-DDB0C71B7E0B" name="FKArc_1">
+<createdBy>emma1</createdBy>
+<createdTime>2026-11-18 13:56:11 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<mandatory>false</mandatory>
+<table>56B9E9FF-FD6F-3BD6-E768-CB1E7A4AE685</table>
+<fkeys>
+<fkeyID>A0CA57AC-95A4-BFDA-96D8-8865767E9C01</fkeyID>
+<fkeyID>DAFB5AAC-AA00-153C-B77B-29D8E765A296</fkeyID>
+</fkeys>
+</FKArc>
