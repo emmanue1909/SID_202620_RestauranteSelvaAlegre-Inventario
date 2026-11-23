@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBA8A66E-BAFC-577C-F35B-065382DAD053" name="SUPPLIER">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:56:53 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nit" id="BF727CA8-FB96-0FE0-2109-367873654E8F">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:03 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="89F901A7-121D-2EF2-C26E-EC4346EAB2C6">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:02 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="9E6AB28E-622B-B72B-7FEE-E46838B5A6F4">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:09 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8A6505BF-E0DF-056F-45D5-9661E9DD5779">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:26 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FB893378-00E6-3C66-9827-8CA424202AB3" name="SUPPLIER PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-10 23:57:08 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF727CA8-FB96-0FE0-2109-367873654E8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

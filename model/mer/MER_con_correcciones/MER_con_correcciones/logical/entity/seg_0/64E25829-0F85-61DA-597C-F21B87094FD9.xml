@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64E25829-0F85-61DA-597C-F21B87094FD9" name="ORDER">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:19 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="928E845A-F4D9-17B6-A4E5-DDB1FD934F13">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:31 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="FDDA03E2-EB0A-09AC-94FA-B4BD8A3EE8F5">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:35 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="1CEE8F20-93BD-092D-426D-5B647A94E28E">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:39 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hour" id="87D701AB-3F04-F2E4-E481-3148C760BBDD">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:50 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_price" id="A53F330E-F84A-81A6-4465-CA3F25B5291A">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:55 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="9ABDBCC5-DB6F-AECC-51A0-72F7027D78F4">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:11:52 UTC</createdTime>
+<generatorID>0AF3B085-3B52-7622-0714-38E0FD23C50F</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>E0F61F22-EF52-2B37-B2F2-B28510EAB814</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="4103B5E0-B4C0-255A-C2D4-C5B1135DBD3C">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:14:44 UTC</createdTime>
+<generatorID>CECC2CEA-2007-1951-DF37-C28CEC2510BB</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>F95DD99F-5D86-7D93-5737-7A997C3C7494</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="8179BC21-6DDA-59D2-6148-B91533F505A3">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:14:44 UTC</createdTime>
+<generatorID>CECC2CEA-2007-1951-DF37-C28CEC2510BB</generatorID>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<referedAttribute>76D8CF38-1CBA-3DAA-1855-594499AEA65D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="877921D7-97AF-E7BA-B352-F38C5C40B347" name="ORDER PK">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-11 00:06:34 UTC</createdTime>
+<ownerDesignName>MER_con_correcciones</ownerDesignName>
+<engineerTo>
+<item key="F796D556-A21F-19FD-9C8C-35942F89D22B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>928E845A-F4D9-17B6-A4E5-DDB1FD934F13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
