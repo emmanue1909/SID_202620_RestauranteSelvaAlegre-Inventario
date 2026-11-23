@@ -43,6 +43,24 @@
 <colAssociation fkAssociation="B649B1C6-8EA4-6E57-1870-EE9B3F96D9DA" referredColumn="8D8C4965-0F91-F7E7-C015-CD7821DDA1D1"/>
 </associations>
 </Column>
+<<<<<<< HEAD
+<Column name="TYPE_name" id="5FF3CFA0-4661-B866-FA20-FD71E4A2CBC3">
+<createdBy>cordo</createdBy>
+<createdTime>2026-10-04 15:59:00 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CEB30F6-667B-0571-BE73-8982947181BB" referredColumn="A8F9D7D4-0370-620B-F218-B07BE54D3EEC"/>
+</associations>
+</Column>
+=======
+>>>>>>> origin/root-emmanuel
 <Column name="EMPLOYEES_id" id="440CADEC-896C-274C-D3BB-BE094BE3A4B7">
 <createdBy>cordo</createdBy>
 <createdTime>2026-10-04 16:21:40 UTC</createdTime>
