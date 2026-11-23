@@ -43,6 +43,7 @@
 <colAssociation fkAssociation="B649B1C6-8EA4-6E57-1870-EE9B3F96D9DA" referredColumn="8D8C4965-0F91-F7E7-C015-CD7821DDA1D1"/>
 </associations>
 </Column>
+<<<<<<< HEAD
 <Column name="TYPE_name" id="5FF3CFA0-4661-B866-FA20-FD71E4A2CBC3">
 <createdBy>cordo</createdBy>
 <createdTime>2026-10-04 15:59:00 UTC</createdTime>
@@ -58,6 +59,8 @@
 <colAssociation fkAssociation="1CEB30F6-667B-0571-BE73-8982947181BB" referredColumn="A8F9D7D4-0370-620B-F218-B07BE54D3EEC"/>
 </associations>
 </Column>
+=======
+>>>>>>> origin/root-emmanuel
 <Column name="EMPLOYEES_id" id="440CADEC-896C-274C-D3BB-BE094BE3A4B7">
 <createdBy>cordo</createdBy>
 <createdTime>2026-10-04 16:21:40 UTC</createdTime>
@@ -77,6 +80,7 @@
 <createdBy>emma1</createdBy>
 <createdTime>2026-10-10 23:40:12 UTC</createdTime>
 <ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -92,6 +96,7 @@
 <createdBy>emma1</createdBy>
 <createdTime>2026-10-10 23:41:40 UTC</createdTime>
 <ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -101,6 +106,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="DAFB5AAC-AA00-153C-B77B-29D8E765A296" referredColumn="C1098D11-0881-16A1-32A1-5CCF7A198D8A"/>
+</associations>
+</Column>
+<Column name="TYPE_MOVEMENT_name" id="48076663-9E31-3CAE-01E4-F0249C49A721">
+<createdBy>emma1</createdBy>
+<createdTime>2026-11-18 16:23:50 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5EAC30D-08E6-0188-03EC-B655962AF6E2" referredColumn="A8F9D7D4-0370-620B-F218-B07BE54D3EEC"/>
 </associations>
 </Column>
 </columns>
@@ -124,16 +144,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="33A738C9-310E-EA1B-3107-5DE7C2C6C670"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E07E7D43-03CA-1090-1BED-79812D1DADFC" name="MOVEMENTS_TYPE_FK">
-<createdBy>cordo</createdBy>
-<createdTime>2026-10-04 15:59:00 UTC</createdTime>
-<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5FF3CFA0-4661-B866-FA20-FD71E4A2CBC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6D81948F-D355-55D1-689B-FD56F47FD608" name="MOVEMENTS_EMPLOYEES_FK">
@@ -164,6 +174,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EDD826FD-F6B7-89F0-6E2A-6186DB157A67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1103C04-33FF-2B28-2C19-18E4EEEBBF38" name="MOVEMENTS_TYPE_MOVEMENT_FK">
+<createdBy>emma1</createdBy>
+<createdTime>2026-11-18 16:23:50 UTC</createdTime>
+<ownerDesignName>modeloMR1.0proyectoRestaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48076663-9E31-3CAE-01E4-F0249C49A721"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
